@@ -66,7 +66,7 @@ public class EX01_Developed_Product_Calculator {
                 product *= value; // Cumulative multiplication
             } catch (NumberFormatException e) {
                 // Invalid factor → print error message with exact factor
-                System.out.println("error: '" + trimmed + "' tu es con"); 
+                System.out.println("error: '" + trimmed + "' is not valid '"); 
                 return; // Stop calculation for this line
             }
         }
