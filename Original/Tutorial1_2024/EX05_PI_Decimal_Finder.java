@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * Tutorial 1, exercise 05: prints the n-th decimal digit of pi.
+ * Shifts the fractional part of Math.PI left by n places and keeps the last digit,
+ * so it is only reliable up to about 15 digits (double precision).
+ */
 public class EX05_PI_Decimal_Finder {
 
 	public static void main(String[] args) {

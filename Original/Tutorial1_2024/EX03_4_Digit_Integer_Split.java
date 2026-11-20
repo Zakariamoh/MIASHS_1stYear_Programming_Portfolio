@@ -1,6 +1,10 @@
 
 import java.util.Scanner;
 
+/**
+ * Tutorial 1, exercise 03: splits a 4-digit integer into its thousands, hundreds,
+ * tens and units digits using integer division and modulo.
+ */
 public class EX03_4_Digit_Integer_Split {
 
 	public static void main(String[] args) {
